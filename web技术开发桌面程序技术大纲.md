@@ -1,46 +1,47 @@
 [toc]
-#web¼¼Êõ¿ª·¢×ÀÃæ³ÌĞò¼¼Êõ´ó¸Ù
-Ò»Ö±ÒÔÀ´£¬¶¼ÏëÕÒÒ»¸ö·½°¸£¬ÄÜ¹»±È½Ï¼òµ¥¿ì½İµÄÊµÏÖ¿çÆ½Ì¨µÄ×ÀÃæ³ÌĞò¡£Ö®Ç°Ïë¹ıqt--pyqt¡£¿ÉÏ§²»´óÏ²»¶£¬×Ü¸Ğ¾õ×ö³öÀ´µÄ³ÌĞòÃ»ÓĞÏÖ´ú¸Ğ£¬³ó³óµÄ¡£
-Ö±µ½×î½üÓöµ½ÁËatom¡£ÊµÔÚÈÃÎÒ¾ªÌ¾£¬web¼¼Êõ¿ÉÒÔĞ´³öÕâÃ´Á÷³©µÄ×ÀÃæ³ÌĞò¡£UIÊÇÎÒ¼û¹ı×îĞÔ¸ĞµÄ¡£Ï²»¶atom£¬Í¬Ê±Ò²ÈÃÎÒ¿ªÊ¼¹Ø×¢atomÏà¹ØµÄ¼¼Êõ¡£
+#webæŠ€æœ¯å¼€å‘æ¡Œé¢ç¨‹åºæŠ€æœ¯å¤§çº²
+ä¸€ç›´ä»¥æ¥ï¼Œéƒ½æƒ³æ‰¾ä¸€ä¸ªæ–¹æ¡ˆï¼Œèƒ½å¤Ÿæ¯”è¾ƒç®€å•å¿«æ·çš„å®ç°è·¨å¹³å°çš„æ¡Œé¢ç¨‹åºã€‚ä¹‹å‰æƒ³è¿‡qt--pyqtã€‚å¯æƒœä¸å¤§å–œæ¬¢ï¼Œæ€»æ„Ÿè§‰åšå‡ºæ¥çš„ç¨‹åºæ²¡æœ‰ç°ä»£æ„Ÿï¼Œä¸‘ä¸‘çš„ã€‚
+ç›´åˆ°æœ€è¿‘é‡åˆ°äº†atomã€‚å®åœ¨è®©æˆ‘æƒŠå¹ï¼ŒwebæŠ€æœ¯å¯ä»¥å†™å‡ºè¿™ä¹ˆæµç•…çš„æ¡Œé¢ç¨‹åºã€‚UIæ˜¯æˆ‘è§è¿‡æœ€æ€§æ„Ÿçš„ã€‚å–œæ¬¢atomï¼ŒåŒæ—¶ä¹Ÿè®©æˆ‘å¼€å§‹å…³æ³¨atomç›¸å…³çš„æŠ€æœ¯ã€‚
 
-¶ÔÓÚÎÒÀ´Ëµ£¬Ñ¡ÔñÁË½âweb¼¼Êõ¿ª·¢×ÀÃæ³ÌĞòµÄÔ­Òò£º
-- ´óÊ¦Ëµ¹ı£¬Ã¿¸ö³ÌĞòÔ±¶¼Ó¦Ñ§Ï°javascript
-- web ui¼¼ÊõÊÇ³ÖĞø·¢Õ¹¡¢»îÔ¾µÄ¡££¨¿Ï¶¨±Èqt»îÔ¾£©
-- ÄÜ¼æ¹ËÑ§Ï°webÇ°Ì¨¼¼Êõ£¬¶ÔÓÚ´øÁì¸´ºÏĞÍ¼¼ÊõÍÅ¶ÓÓĞ°ïÖú
-- Ï²»¶atom£¬Ï²»¶github
+å¯¹äºæˆ‘æ¥è¯´ï¼Œé€‰æ‹©äº†è§£webæŠ€æœ¯å¼€å‘æ¡Œé¢ç¨‹åºçš„åŸå› ï¼š
+- å¤§å¸ˆè¯´è¿‡ï¼Œæ¯ä¸ªç¨‹åºå‘˜éƒ½åº”å­¦ä¹ javascript
+- web uiæŠ€æœ¯æ˜¯æŒç»­å‘å±•ã€æ´»è·ƒçš„ã€‚ï¼ˆè‚¯å®šæ¯”qtæ´»è·ƒï¼‰
+- èƒ½å…¼é¡¾å­¦ä¹ webå‰å°æŠ€æœ¯ï¼Œå¯¹äºå¸¦é¢†å¤åˆå‹æŠ€æœ¯å›¢é˜Ÿæœ‰å¸®åŠ©
+- å–œæ¬¢atomï¼Œå–œæ¬¢github
 
-¾­¹ıÒ»·¬ÁË½â£¬¸Ğ¾õÕâ·½Ãæ»¹ÊÇÓĞĞ©»ìÂÒ£¬Ç£³¶²»ÉÙ¼¼Êõ
-##Ïà¹Ø¼¼Êõ¸ÅÊö
+ç»è¿‡ä¸€ç•ªäº†è§£ï¼Œæ„Ÿè§‰è¿™æ–¹é¢è¿˜æ˜¯æœ‰äº›æ··ä¹±ï¼Œç‰µæ‰¯ä¸å°‘æŠ€æœ¯
+##ç›¸å…³æŠ€æœ¯æ¦‚è¿°
 ###node.js
- ÈÃjavascriptÄÜ²Ù×÷±¾µØ¹¦ÄÜ£¬±ÈÈçÊı¾İ¿â¡¢ÎÄ¼ş²Ù×÷µÈ
+ è®©javascriptèƒ½æ“ä½œæœ¬åœ°åŠŸèƒ½ï¼Œæ¯”å¦‚æ•°æ®åº“ã€æ–‡ä»¶æ“ä½œç­‰
 ###webkit
-ÓÃÓÚäÖÈ¾html£¬ÎÒÀí½âwebkit¾ÍÊÇhtml¡¢css¡¢javascriptµÄ¡°½âÊÍÆ÷¡±
+ç”¨äºæ¸²æŸ“htmlï¼Œæˆ‘ç†è§£webkitå°±æ˜¯htmlã€cssã€javascriptçš„â€œè§£é‡Šå™¨â€
 ###chormium
-Ö÷ÒªÊÇä¯ÀÀÆ÷Ïà¹Ø¹¦ÄÜ£¬±ÈÈçcookie¡¢´°¿Ú¹ÜÀí¡¢ÃÜÂë¹ÜÀíµÈ
->**Àí½âWebKitºÍChromium: WebKitºÍChromium×é**³É:http://blog.csdn.net/milado_nju/article/details/7300074
+ä¸»è¦æ˜¯æµè§ˆå™¨ç›¸å…³åŠŸèƒ½ï¼Œæ¯”å¦‚cookieã€çª—å£ç®¡ç†ã€å¯†ç ç®¡ç†ç­‰
+>**ç†è§£WebKitå’ŒChromium: WebKitå’ŒChromiumç»„**æˆ:http://blog.csdn.net/milado_nju/article/details/7300074
 
 ###node-webkit
-½«node.js¡¢webkit¡¢chormium¼¯³ÉÔÚÒ»ÆğµÄÒ»ÖÖ·½°¸¡£¹úÈË¿ª·¢
->ÓÃnode-webkit¿ª·¢¶àÆ½Ì¨µÄ×ÀÃæ¿Í»§¶Ëhttp://www.baidufe.com/item/1fd388d6246c29c1368c.html
->Ê¹ÓÃnode-webkitµÄÏîÄ¿https://github.com/nwjs/nw.js/wiki/List-of-apps-and-companies-using-nw.js
->ÀûÓÃnode-webkitÉú³É¿ÉÖ´ĞĞÎÄ¼şhttp://www.cnblogs.com/2050/p/3543011.html
->Node-Webkit×÷ÕßÍõÎÄî£·ÃÎÊhttp://www.csdn.net/article/2014-01-08/2818066-Node-Webkit
+å°†node.jsã€webkitã€chormiumé›†æˆåœ¨ä¸€èµ·çš„ä¸€ç§æ–¹æ¡ˆã€‚å›½äººå¼€å‘
+>ç”¨node-webkitå¼€å‘å¤šå¹³å°çš„æ¡Œé¢å®¢æˆ·ç«¯http://www.baidufe.com/item/1fd388d6246c29c1368c.html
+>ä½¿ç”¨node-webkitçš„é¡¹ç›®https://github.com/nwjs/nw.js/wiki/List-of-apps-and-companies-using-nw.js
+>åˆ©ç”¨node-webkitç”Ÿæˆå¯æ‰§è¡Œæ–‡ä»¶http://www.cnblogs.com/2050/p/3543011.html
+>Node-Webkitä½œè€…ç‹æ–‡ç¿è®¿é—®http://www.csdn.net/article/2014-01-08/2818066-Node-Webkit
 ###electron
-½«node.js¡¢webkit¡¢chormium¼¯³ÉÔÚÒ»ÆğµÄµÄÁíÒ»ÖÖ·½°¸
-Ô­ÃûAtom-shell
-Ã»´í£¬ÕâÊÇAtomµÄÒ»²¿·Ö¡£ÎªÁËÊµÏÖAtom£¬githubÄÇ°ïÈËĞ´ÁËÕâ¸ö¹¦ÄÜ£¬´Ó¶ø´øÁìÁËÒ»¸öÉúÌ¬È¦¡£
-×÷ÎªAtomµÄ·Û£¬ÎÒ±ØÈ»ÒªÑ¡ÔñelectronÁË
+å°†node.jsã€webkitã€chormiumé›†æˆåœ¨ä¸€èµ·çš„çš„å¦ä¸€ç§æ–¹æ¡ˆ
+åŸåAtom-shell
+æ²¡é”™ï¼Œè¿™æ˜¯Atomçš„ä¸€éƒ¨åˆ†ã€‚ä¸ºäº†å®ç°Atomï¼Œgithubé‚£å¸®äººå†™äº†è¿™ä¸ªåŠŸèƒ½ï¼Œä»è€Œå¸¦é¢†äº†ä¸€ä¸ªç”Ÿæ€åœˆã€‚
+ä½œä¸ºAtomçš„ç²‰ï¼Œæˆ‘å¿…ç„¶è¦é€‰æ‹©electronäº†
 http://www.tuicool.com/articles/MrQB3aa
 ###npm
-node.jsµÄ°ü¹ÜÀíÆ÷
+node.jsçš„åŒ…ç®¡ç†å™¨
 
 
-##»·¾³´î½¨¹ı³Ì¼ÇÂ¼
-- °²×°node.js£¬´Ó¹ÙÍøÉÏÏÂÔØ¶ÔÓ¦µÄ°ü°²×°
-- ÔÚ[¹ÙÍø](http://electron.atom.io)ÏÂÔØelectron£¨npm·½Ê½Ã»ÓĞ³É¹¦£©£¬°²×°electron
-- ±àĞ´hello world³ÌĞò
-- ÔËĞĞ³ÌĞò£¬²Î¿¼¹ÙÍø[quickstart](http://electron.atom.io/docs/latest/tutorial/quick-start/)
-- ·¢²¼Ä¿±êÆ½Ì¨µÄ³ÌĞò¡£¹Ù·½ÎÄµµÓĞÎÄµµËµÃ÷¡£ÎÒÊ¹ÓÃÁË[Awesome Electron](https://github.com/sindresorhus/awesome-electron)¡£ÀûÓÃ[electron-packager](https://github.com/maxogden/electron-packager)¿ÉÔÚmacÉÏ·¢²¼linux¡¢win32¡¢macosÈıÆ½Ì¨µÄ³ÌĞò¡£ºÜ·½±ã
+##ç¯å¢ƒæ­å»ºè¿‡ç¨‹è®°å½•
+- å®‰è£…node.jsï¼Œä»å®˜ç½‘ä¸Šä¸‹è½½å¯¹åº”çš„åŒ…å®‰è£…
+- åœ¨[å®˜ç½‘](http://electron.atom.io)ä¸‹è½½electronï¼ˆnpmæ–¹å¼æ²¡æœ‰æˆåŠŸï¼‰ï¼Œå®‰è£…electron
+- ç¼–å†™hello worldç¨‹åº
+- è¿è¡Œç¨‹åºï¼Œå‚è€ƒå®˜ç½‘[quickstart](http://electron.atom.io/docs/latest/tutorial/quick-start/)
+- å‘å¸ƒç›®æ ‡å¹³å°çš„ç¨‹åºã€‚å®˜æ–¹æ–‡æ¡£æœ‰æ–‡æ¡£è¯´æ˜ã€‚æˆ‘ä½¿ç”¨äº†[Awesome Electron](https://github.com/sindresorhus/awesome-electron)ã€‚åˆ©ç”¨[electron-packager](https://github.com/maxogden/electron-packager)å¯åœ¨macä¸Šå‘å¸ƒlinuxã€win32ã€macosä¸‰å¹³å°çš„ç¨‹åºã€‚å¾ˆæ–¹ä¾¿
 
-Õû¸öÁ÷³Ì´òÍ¨ÁË£¬Ê£ÏÂµÄ»¹ĞèÒªÑ§Ï°html/javascript/css/
-**Ó²ÉË£¬³ÌĞòÌå»ıÊÇÓ²ÉË¡£helloworld³ÌĞò·¢²¼ºó¾ÍÊÇ100M¡£**
+æ•´ä¸ªæµç¨‹æ‰“é€šäº†ï¼Œå‰©ä¸‹çš„è¿˜éœ€è¦å­¦ä¹ html/javascript/css/
+
+**ç¡¬ä¼¤ï¼Œç¨‹åºä½“ç§¯æ˜¯ç¡¬ä¼¤ã€‚helloworldç¨‹åºå‘å¸ƒåå°±æ˜¯100Mã€‚**
